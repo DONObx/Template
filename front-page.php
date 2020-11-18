@@ -4,7 +4,7 @@
 
 <div class="container pt-5 pb-b">
 
-	<h1>Welcome to my website</h1>
+	<h1><?php the_title();?></h1>
 
 
 </div>
