@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header class="sticky-top">
@@ -42,9 +43,38 @@
 		      </li>
 		    </ul>
 		  </div>
+		  <a id="cart" class="navbar-brand" href="#"><img src="image/cart" width="95px" alt="cart"></a>
 		</nav>
 		</div>
 	</header>
+	<div class="hero-image">
+	  <img src="image/hero-img2" class="img-fluid" alt="hero image" width="100%">
+	  <h1 id="title">A Propos</h1>
+	  <h1 id="title-text">Sois au courant de<br>tout ce que je sors!</h1>
+	  <img src="image/slash" class="slash img-fluid" alt="slash" width="100">
+	</div>
+	<div class="container">
+	<div class="row">
+		<div class="col-xl-3 col-md card" style="width: 18rem;">
+		  <img src="image/FB" class="icon card-img-top" alt="facebook">
+		  <div class="card-body">
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+		<div class="col-xl-3 col-md card" style="width: 18rem;">
+		  <img src="image/INSTA" class="icon card-img-top" alt="instagram">
+		  <div class="card-body">
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+		<div class="col-xl-3 col-md card" style="width: 18rem;">
+		  <img src="image/LI" class="icon card-img-top" alt="linked in">
+		  <div class="card-body">
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+	</div>
+	</div>
 
 <script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
