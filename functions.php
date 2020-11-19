@@ -54,3 +54,21 @@ function loadjs()
 
 }
 add_action('wp_enqueue_scripts', 'loadjs');
+
+
+
+
+add_theme_support('menus');
+
+
+
+register_nav_menus(
+
+	array(
+	
+			'menu-1' => __('menu 1', 'theme'),
+			
+
+	)
+
+);
